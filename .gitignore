@@ -59,3 +59,8 @@ Thumbs.db
 # Custom project-specific ignores
 app/data/
 rooms.csv
+
+# Environment variables (never commit real credentials)
+.env
+.env.*
+!.env.example
